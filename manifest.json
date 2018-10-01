@@ -1,0 +1,15 @@
+{
+  "short_name": "Hope FMC",
+  "name": "Hope Family Medical Center",
+  "icons": [
+    {
+      "src":"images/android-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://hopefmc.org",
+  "background_color": "#008080",
+  "theme_color": "#ffffff",
+  "display": "standalone"
+}

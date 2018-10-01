@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="uft-8" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Hope FMC - Contact</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="/images/favicon-64.png" type="image/gif" sizes="64x64">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Hope FMC">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/ios-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/ios-icon-152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="images/ios-icon-167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/ios-icon-180.png">
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper container">
+        <a href="/" class="brand-logo">
+        <img src="images/logo-full.svg" width="172px">
+      </a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons" style="color: #3b678f">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="prices.html">PRICES</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li class="active"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="images/banner-sidenav.svg">
+        </div>
+        <a href="#!user"><img class="circle" src="images/profile.svg"></a>
+        <a href="#!name"><span class="white-text name">385-275-4673</span></a>
+        <a href="#!email"><span class="white-text email">hope@hopefmc.org</span></a>
+      </div>
+    </li>
+    <li><a href="/">HOME</a></li>
+    <li><a href="services.html">SERVICES</a></li>
+    <li><a href="prices.html">PRICES</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col s12"><br>
+        <form id="gform" method="POST" class="col s12" action="https://script.google.com/a/hopefmc.org/macros/s/AKfycby3d5PtPyEn4Vt9Q8eXrCcyQ4tOh5oE-6PmGHVlzpjABYBFB4l5/exec">
+          <div class="row">
+            <div class="col s12">
+              <h4 class="light">CONTACT US</h4>
+              <p class="light">Please use the following form to contact us for any reasons:</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" name="name" type="text" class="validate" />
+              <label for="name">Full Name</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="email" name="email" type="email" class="validate" />
+              <label for="email">Email Address</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="phone" name="phone" type="tel" class="validate" />
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea" name="message" type="text" class="materialize-textarea"></textarea>
+              <label for="textarea">Message</label>
+            </div>
+          </div>
+          <p class="center-align"><button class="waves-effect waves-light btn-flat white-text" style="background: #008080">Submit</button></p><br>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12" style="display:none; margin-top:-20px" id="thankyou_message">
+          <h4 class="light">THANKS FOR CONTACTING US!</h4>
+          <p class="light">We'll get back to you soon.</p>
+          <img src="images/logo-full.svg" style="width: 100%; max-width: 400px;"><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <div class="container">
+    <div class="section">
+      <div class="row center">
+        <div class="col s12 m4 l4">
+          <div class="card-panel waves-effect waves-light" style="background: #008080; cursor: pointer; width: 100%" onclick="location.href='https://id.patientfusion.com/signin';">
+            <span class="white-text">ACCESS PATIENT PORTAL</span>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card-panel waves-effect waves-light" style="background: #008080; cursor: pointer; width: 100%" onclick="location.href='https://www.patientfusion.com/doctor/jody-stubler-aprn-c-19891';">
+            <span class="white-text">MAKE AN APPOINTMENT</span>
+          </div>
+        </div>
+        <div class="col s12 m4 l4">
+          <div class="card-panel waves-effect waves-light" style="background: #008080; cursor: pointer; width: 100%" onclick="location.href='!#';">
+            <span class="white-text">FILL NEW PATIENT FORMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer" style="background: #3a668e">
+    <div class="container">
+      <div class="row center">
+        <div class="col s12 m4">
+          <h4 class="white-text">Address</h4>
+          <a href="https://goo.gl/maps/PrrCv2tDgin" class="white-text">166 East 5900 South Ste. B109<br>Salt Lake City, UT 84107</a><br><br>
+        </div>
+        <div class="col s12 m4">
+          <h4 class="white-text">Contact</h4>
+          <a href="mailto:hope@hopefmc.org" class="white-text">hope@hopefmc.org</a><br>
+          <a href="tel:1-385-275-4673" class="white-text">Phone: 385-275-4673</a><br>
+          <a class="white-text">Fax: 801-999-4166</a><br><br>
+        </div>
+        <div class="col s12 m4">
+          <h4 class="white-text">Follow Us</h4>
+          <div>
+            <a href="https://facebook.com/hopefmc/"><img src="images/social-01.svg" title="Facebook" alt="Facebook" class="social"></a>
+            <a href="https://twitter.com/hopefmc"><img src="images/social-02.svg" title="Twitter" alt="Twitter" class="social"></a>
+            <a href="https://youtube.com/channel/UCtzApbCn7SjZE6pMaliQqsg"><img src="images/social-03.svg" title="YouTube" alt="Youtube" class="social"></a>
+            <a href="https://instagram.com/hopefmc/"><img src="images/social-04.svg" title="Instagram" alt="Instagram" class="social"></a>
+            <a href="https://goo.gl/Dd16LS"><img src="images/social-05.svg" title="Google" alt="Google" class="social"></a>
+          </div><br>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        <span id="copywrite" class="p-copywrite"></span>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+  </script>
+  <script>
+    document.getElementById("copywrite").innerHTML =
+      'Copyright © ' + new Date().getFullYear() + ' &nbsp;<img src="images/logo-copyright.svg" title="Hope" alt="Hope" style="width: 13px; margin-bottom: -1px">&nbsp; Hope Family Medical Center';
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('.slider').slider();
+    });
+  </script>
+</body>
+
+</html>

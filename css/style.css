@@ -1,0 +1,157 @@
+nav {
+  height: 64px;
+  line-height: 64px;
+}
+
+nav .button-collapse i {
+  height: 64px;
+  line-height: 64px;
+}
+
+nav ul li a {
+  color: #757575;
+  font-size: .9rem;
+}
+
+nav .button-collapse {
+  margin: 0 3px;
+}
+
+nav ul a:hover {
+  background: rgba(58, 102, 139, 0.05);
+  color: rgba(58, 102, 139, 1);
+}
+
+nav ul li.active {
+  background-color: rgba(58, 102, 139, 0.05);
+}
+
+nav ul li.active:hover {
+  background-color: transparent;
+}
+
+nav ul li.active a {
+  color: rgba(58, 102, 139, 1);
+}
+
+.side-nav li>a {
+  color: #757575;
+  font-size: .9rem
+}
+
+.side-nav li a:hover {
+  background-color: rgba(58, 102, 139, 0.05);
+  color: rgba(58, 102, 139, 1);
+}
+
+.side-nav .user-view {
+  margin-bottom: 0px;
+}
+
+.slider .indicators .indicator-item {
+  background-color: rgba(58, 102, 139, 0.25);
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #3a668e;
+}
+
+.social {
+  width: 15%;
+  max-width: 35px;
+  margin: 0 1.5%;
+}
+
+p.p-copywrite {
+  margin: 0;
+}
+
+.card-panel {
+  padding: 8px;
+}
+
+.td-left {
+  align: right;
+}
+
+h4 {
+  font-size: calc(17px + 1.2vw);
+  color: #008080;
+}
+
+p {
+  font-size: calc(15px + .2vw);
+  color: #646464;
+}
+
+.hangingindent {
+  padding-left: 9px !important;
+  text-indent: -9px;
+  font-size: calc(15px + .2vw);
+  color: #646464;
+}
+
+td, th {
+  padding: 7px 10px;
+}
+
+@media only screen and (min-width: 601px) {
+  p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 90%;
+  }
+  .video-mobile {
+    width: 100%;
+  }
+}
+
+.about-img {
+  width: 100%;
+  margin-top: 23px;
+}
+
+.about-img-small {
+  width: 100%;
+}
+
+.about-small {
+  margin-top: 15px;
+}
+
+.row-video {
+  margin-bottom: 10px;
+}
+
+.row-about {
+  margin: 10px 0 0;
+}
+
+form .row .col {
+    padding: 0;
+}
+
+.input-field.col label{
+  left: 0;
+}
+
+textarea.materialize-textarea {
+  height: 1rem;
+  min-height: 1rem;
+}
+
+.neon {
+  text-shadow: 0 0 0.2em #424242, 0 0 .5em #424242, 0 0 1em #424242;
+}
+
+h3 {
+    font-size: calc(32px + 1.5vw);
+}
+
+h5 {
+    font-size: calc(20px + 1.3vw);
+}
